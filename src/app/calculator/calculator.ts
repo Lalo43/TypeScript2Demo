@@ -5,6 +5,14 @@ interface ICalculator{
 
 class Calculator implements ICalculator{
 
+    suma(number1: number, number2: number): number{
+            return number1 + number2;
+    }
+
+    resta(number1: number, number2: number): number{
+        return number1 - number2;
+
+    }
     
 }
 
